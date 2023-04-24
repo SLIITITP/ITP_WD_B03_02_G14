@@ -7,7 +7,7 @@ import Packages from "./components/Package/Packages";
 import PckgDetails from "./components/Package/PckgDetails";
 import BookingTable from "./components/Booking/BookingTable";
 import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.css";//comment
 
 function App() {
   return (
