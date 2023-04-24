@@ -42,7 +42,7 @@ const BookingTable = () => {
     // Draw frame
     doc.rect(frameX, frameY, frameWidth, frameHeight);
   
-    // Add content
+    // Add content to the report
     doc.text(`Booking Details`, frameX + 10, frameY + 10);
     doc.text(`Name: ${booking.name}`, frameX + 10, frameY + 20);
     doc.text(`Date: ${formatDate(booking.date)}`, frameX + 10, frameY + 30);
