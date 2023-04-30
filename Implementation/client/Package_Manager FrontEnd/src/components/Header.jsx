@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+
 import { AppBar, Tab, Tabs, Toolbar, Typography } from '@mui/material';
 import PersonPinCircleOutlinedIcon from '@mui/icons-material/PersonPinCircleOutlined';
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
-    const [value, setValue] = useState();
+    
   return (
     <div>
         <AppBar sx={{ backgroundColor: "#3A1078"}} position='fixed'>
